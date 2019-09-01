@@ -229,7 +229,7 @@ class _SIFormState extends State<SIForm>{
 
   Widget getImageAsset(){
     AssetImage assetImage = AssetImage('images/money.png');
-    Image image = Image(image: assetImage, width: 100.0, height: 100.0,);
+    Image image = Image(image: assetImage, width: 60.0, height: 60.0,);
 
     return Container(child: image,padding: EdgeInsets.all(_minumumPadding*10),);
   }
