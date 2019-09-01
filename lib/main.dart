@@ -213,7 +213,7 @@ class _SIFormState extends State<SIForm>{
     double roi = double.parse(roiController.text);
     double term = double.parse(termController.text);
 
-    double total = principal + (principal * roi) / 100;
+    double total = principal + (principal * roi) / 100 * term;
     String output = "After $term years, your investment will be worth $total $_selectedCurrency";
 
     return output;
