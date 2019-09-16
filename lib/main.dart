@@ -6,6 +6,7 @@ void main(){
       debugShowCheckedModeBanner: false,
       title: 'Simple Interest Claculator',
       home: SIForm(),
+      //Theme update
       theme: ThemeData(
         brightness: Brightness.dark,
         primaryColor: Colors.indigo,
